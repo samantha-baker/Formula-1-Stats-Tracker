@@ -1,0 +1,20 @@
+[project]
+name = "formula-1-stats-tracker"
+version = "1.0.0"
+description = "This is just a fun personal project to create a tracker for Formula 1 statistics."
+authors = [
+    {name = "Samantha Baker",email = "sam.baker.2019@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastf1 (>=3.6.0,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
